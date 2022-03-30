@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-//#include <St>
+
 void Nome(){
 	
 char nome[20], sobre[20];
@@ -11,7 +11,7 @@ gets(nome);
 printf("Digite seu sobrenome: \n");
 gets(sobre);
 
-printf("Olá %s %s, Bem-Vindo ao Sistema de Avaliação!\n", nome, sobre);
+printf("OlÃ¡ %s %s, Bem-Vindo ao Sistema de AvaliaÃ§Ã£o!\n", nome, sobre);
 
 }
 
@@ -40,12 +40,12 @@ void main(){
 		if(m>=7){
 			
 			printf("\n Aprovado\n");
-			printf(" Sua média foi: %3.2f\n", m);
+			printf(" Sua mÃ©dia foi: %3.2f\n", m);
 		
 		}else if(m>=4){
 			
 			printf(" Vai fazer AF\n");
-			printf(" Sua média foi: %3.2f\n", m);
+			printf(" Sua mÃ©dia foi: %3.2f\n", m);
 
 			printf(" Nota da AF: \n");
 			scanf("%f", &AF);
@@ -59,11 +59,11 @@ void main(){
 		}else{
 			
 			printf(" Reprovado\n");
-			printf(" Sua média foi: %3.2f\n", m);
+			printf(" Sua mÃ©dia foi: %3.2f\n", m);
 			
 		}
 		
-		printf("\n Tentar novamente?\n 1 - SIM \n 2 - NÂO\n");
+		printf("\n Tentar novamente?\n 1 - SIM \n 2 - NÃ‚O\n");
 		scanf("%d", &a);
 		
 	}
